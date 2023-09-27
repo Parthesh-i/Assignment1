@@ -1,0 +1,37 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+thead {
+    background-color: rgb(34,139,34);
+}
+th {
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+}
+th,td {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+#toast_link{
+    display: none;
+}
+#toast_msg{
+     display: none;
+}
+#contracts-dropdown{
+    background-color: rgb(34,139,34);
+    color: white;
+}
+#table-contracts{
+    position: relative;
+    top: 59px;
+}
+body{
+    background-color: #b4bec37d;
+}

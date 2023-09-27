@@ -1,0 +1,30 @@
+.centered{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one       */
+
+    display: flex;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    color: rgb(34,139,34);
+}
+form{
+    display: inline-block;
+}
+a {
+    color: #6129b3;
+}
+span{
+    color: black;
+}
+h1{
+    color: black;
+}
+li span{
+    color: white;
+}
+#supplierDetails{
+    position: relative;
+    top: 45px;
+}
